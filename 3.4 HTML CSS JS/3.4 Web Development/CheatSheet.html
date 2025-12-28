@@ -1,0 +1,694 @@
+<!-- 
+    1. NexTech HTML Cheat Sheet
+    2. CSS available for different device screens and resolutions
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <h3>NexTech HTML Cheat Sheet</h3>
+
+            <style>
+            </style>
+        </div>
+    </nav>
+
+    <div class="blog-container">
+
+        <h1>Paragraphs</h1>
+        <div class="code-viewer">
+            <h3>Paragraph</h3>
+            <div class="code">
+                &lt;p&gt;This is paragraph 1&lt;/p&gt;
+                <br>
+                &lt;p&gt;This is paragraph 2&lt;/p&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is paragraph 1</p>
+                <p>This is paragraph 2</p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Formatted Paragraph</h3>
+            <small>Formatted text is hard to change for different users'
+                device screens.</small>
+            <div class="code">
+                <pre>
+&lt;pre&gt;
+    This is a formatted paragraph
+        This means we can have
+                            text like this.
+&lt;/pre&gt;
+                </pre>
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <pre>
+    This is a formatted paragraph
+        This means we can have
+                            text like this.
+                </pre>
+            </div>
+        </div>
+        <br>
+        
+        <h1>Text Types</h1>
+        <div class="code-viewer">
+
+            <h3>Bold</h3>
+            <div class="code">
+                &lt;b&gt;This is a bold text&lt;/b&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><b>This is a bold text</b></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Italic</h3>
+            <div class="code">
+                &lt;b&gt;This is a italic text&lt;/b&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><i>This is a italic text</i></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Underline</h3>
+            <div class="code">
+                &lt;b&gt;This is an underlined text&lt;/b&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><u>This is an underlined text</u></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Strike</h3>
+            <div class="code">
+                &lt;s&gt;This is a striked text&lt;/s&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><s>This is a striked text</s></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Strong</h3>
+            <p>
+                Strong and Bold text are not the same. Strong tells
+                the reader that the text important. Bold is for just
+                visual style. Both are rendered the same.
+            </p>
+            <div class="code">
+                &lt;strong&gt;This is a strong text&lt;/strong&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><strong>This is a string text</strong></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Highlight</h3>
+            <div class="code">
+                &lt;mark&gt;This is a highlighted text&lt;/mark&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><mark>This is a highlighted text</mark></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Small</h3>
+            <div class="code">
+                &lt;small&gt;This is a striked text&lt;/small&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text</p>
+                <p><small>This is a small text</small></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Subscript</h3>
+            <div class="code">
+                &lt;sub&gt;This is a subscript text&lt;/sub&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text and<sub>this is a subscript text</sub></p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Superscript</h3>
+            <div class="code">
+                &lt;sup&gt;This is a subscript text&lt;/sup&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>This is a regular text and<sup>this is a supscript text</sup></p>
+            </div>
+        </div>
+        <br>
+
+        <h1>Headings</h1>
+        
+        <div class="code-viewer">
+            <h3>Headings</h3>
+            <div class="code">
+                &lt;h1&gt;This is a striked text&lt;/h1&gt;<br>
+                &lt;h2&gt;This is a striked text&lt;/h2&gt;<br>
+                &lt;h3&gt;This is a striked text&lt;/h3&gt;<br>
+                &lt;h4&gt;This is a striked text&lt;/h4&gt;<br>
+                &lt;h5&gt;This is a striked text&lt;/h5&gt;<br>
+                &lt;h6&gt;This is a striked text&lt;/h6&gt;<br>
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </div>
+        </div>
+        <br>
+
+        <h1>Forms</h1>
+
+        <p>
+            <u>
+                <i>
+                    <strong>NOTE:</strong>
+                    Try interacting with the 
+                    <b>Form Output</b>s
+                </i>
+            </u>
+        </p>
+        
+        <div class="code-viewer">
+            <h3>Submit</h3>
+            <p>This will reload the webpage.</p>
+            <div class="code">
+                &lt;input type="submit"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <form action="">
+                    <input type="text">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Reset</h3>
+            <div class="code">
+                &lt;input type="reset"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <form action="">
+                    <input type="text">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Text</h3>
+            <div class="code">
+                &lt;input type="text"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <input type="text">
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Password</h3>
+            <div class="code">
+                &lt;input type="password"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <input type="password">
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>E-Mail</h3>
+            <div class="code">
+                &lt;input type="email"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <form action="">
+                    <input type="email">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Date</h3>
+            <div class="code">
+                &lt;input type="date"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <form action="">
+                    <input type="date">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>File Input</h3>
+            <div class="code">
+                &lt;input type="file"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <form action="">
+                    <input type="file">
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Checkbox</h3>
+            <div class="code">
+                &lt;input type="checkbox"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <input type="checkbox">
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Radio Button</h3>
+            <div class="code">
+                &lt;input type="radio"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <input type="radio">
+            </div>
+        </div>
+        <br>
+
+        <h1>Lists</h1>
+        
+        <div class="code-viewer">
+            <h3>List Item</h3>
+            <div class="code">
+                &emsp;&emsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <p>Can only be used in &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;</p>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Ordered List</h3>
+            <div class="code">
+                &lt;ol&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 3&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 4&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 5&lt;/li&gt;<br>
+                &lt;/ol&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <ol>
+                    <li>Step 1</li>
+                    <li>Step 2</li>
+                    <li>Step 3</li>
+                    <li>Step 4</li>
+                    <li>Step 5</li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Unordered List</h3>
+            <div class="code">
+                &lt;ul&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 3&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 4&lt;/li&gt;<br>
+                &emsp;&emsp;&lt;li&gt;Item 5&lt;/li&gt;<br>
+                &lt;/ul&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        
+        <div class="code-viewer">
+            <h3>Descriptive List</h3>
+            <div class="code">
+                &lt;dl&gt;<br>
+                &emsp;&emsp;&lt;dt&gt;Title 1&lt;/dt&gt;<br>
+                &emsp;&emsp;&lt;dd&gt;Description 1&lt;/dd&gt;<br>
+                &emsp;&emsp;&lt;dt&gt;Title 2&lt;/dt&gt;<br>
+                &emsp;&emsp;&lt;dd&gt;Description 2&lt;/dd&gt;<br>
+                &emsp;&emsp;&lt;dt&gt;Title 3&lt;/dt&gt;<br>
+                &emsp;&emsp;&lt;dd&gt;Description 3&lt;/dd&gt;<br>
+                &lt;/dl&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <dl>
+                    <dt>Title 1</dt>
+                    <dd>Description 1</dd>
+                    <dt>Title 2</dt>
+                    <dd>Description 2</dd>
+                    <dt>Title 3</dt>
+                    <dd>Description 3</dd>
+                </dl>
+            </div>
+        </div>
+        <br>
+        <small>
+            Webpage's CSS broke &lt;dd&gt; tags' CSS.
+            <br>
+            Reproduced with CSS.
+        </small>
+        <br>
+        <br>
+        <br>
+
+        <h1>Tables</h1>
+        
+        <div class="code-viewer">
+            <!-- <h3>Table</h3> -->
+            <div class="code">
+                &lt;table&gt;<br>
+                &emsp;&emsp;&lt;tr&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;th&gt;Col 1&lt;th&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;th&gt;Col 2&lt;th&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;th&gt;Col 3&lt;th&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;th&gt;Col 4&lt;th&gt;<br>
+                &emsp;&emsp;&lt;/tr&gt;<br>
+                &emsp;&emsp;&lt;tr&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 1 Data 1&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 1 Data 2&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 1 Data 3&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 1 Data 4&lt;td&gt;<br>
+                &emsp;&emsp;&lt;/tr&gt;<br>
+                &emsp;&emsp;&lt;tr&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 2 Data 1&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 2 Data 2&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 2 Data 3&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 2 Data 4&lt;td&gt;<br>
+                &emsp;&emsp;&lt;/tr&gt;<br>
+                &emsp;&emsp;&lt;tr&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 3 Data 1&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 3 Data 2&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 3 Data 3&lt;td&gt;<br>
+                &emsp;&emsp;&emsp;&emsp;&lt;td&gt;Row 3 Data 4&lt;td&gt;<br>
+                &emsp;&emsp;&lt;/tr&gt;<br>
+                &lt;/table&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>D.O.B</th>
+                    </tr>
+                    <tr>
+                        <td>Person 1</td>
+                        <td>21</td>
+                        <td>August 25, 2001</td>
+                    </tr>
+                    <tr>
+                        <td>Person 13</td>
+                        <td>15</td>
+                        <td>January 31, 2007</td>
+                    </tr>
+                    <tr>
+                        <td>Person 27</td>
+                        <td>14</td>
+                        <td>December 1, 2008</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+
+        <h1>Media</h1>
+        <p><sup><b>TODO</b></sup></p>
+
+        <div class="code-viewer">
+            <h3>Image</h3>
+            <div class="code">
+                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <!-- <p>This is paragraph 1</p> -->
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Video</h3>
+            <div class="code">
+                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <!-- <p>This is paragraph 1</p> -->
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Audio</h3>
+            <div class="code">
+                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <!-- <p>This is paragraph 1</p> -->
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Cascadia Mono";
+    }
+
+    html, body {
+        overscroll-behavior-x: none;
+        overscroll-behavior-y: none;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: black;
+        height: 70px;
+        color: white;
+        align-content: center;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .blog-container {
+        width: 75%;
+        height: fit-content;
+        min-height: 300px;
+        background-color: #ffffff;
+        margin: auto;
+        margin-top: 90px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px #eeeeee;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .blog-container h1,
+    .blog-container h2,
+    .blog-container h3,
+    .blog-container h4,
+    .blog-container h5,
+    .blog-container h6,
+    .blog-container p
+    .blog-container small
+    {
+        padding: 10px;
+    }
+
+    .code-viewer {
+        width: 85%;
+        min-height: 25px;
+        height: fit-content;
+        background-color: transparent;
+        border-radius: 10px;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        color: black;
+    }
+
+    .code,
+    .viewer {
+        width: 96%;
+        min-height: 35px;
+        height: fit-content;
+        max-width: 96%;
+        background-color: #ffffff;
+        margin: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        color: black;
+        align-content: center;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .code-viewer h1,
+    .code-viewer h2,
+    .code-viewer h3,
+    .code-viewer h4,
+    .code-viewer h5, 
+    .code-viewer h6 {
+        text-align: left;
+        margin: left;
+    }
+
+    .blog-container .code-viewer p {
+        padding-left: 10px;
+    }
+
+    .code ol li,
+    .code ul li,
+    .viewer ol li,
+    .viewer ul li,
+    .viewer dl dt,
+    .viewer table tr
+    {
+        margin-left: 20px;
+    }
+
+    .viewer table tr td
+    {
+        padding-right: 30px;
+    }
+
+    .viewer dl dd
+    {
+        margin-left: 55px;
+    }
+
+    @media screen and (max-width: 590px) {
+
+        html, body {
+            overscroll-behavior-x: none;
+            overscroll-behavior-y: none;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: black;
+            height: 70px;
+            color: white;
+            align-content: center;
+            text-align: center;
+            font-size: 19px;
+        }
+
+        .blog-container {
+            width: 100%;
+            height: fit-content;
+            background-color: #ffffff;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            border-radius: 0px;
+            margin: 0px;
+        }
+
+        .blog-container .code-viewer .code pre {
+
+        }
+    }
+
+</style>
+
+</html>
