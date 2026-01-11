@@ -504,37 +504,77 @@
         <p><sup><b>TODO</b></sup></p>
 
         <div class="code-viewer">
-            <h3>Image</h3>
+            <h3>Link</h3>
             <div class="code">
-                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+                &lt;a href="https://projectnextech.org/" target="_blank"&gt;Project NexTech&lt;/a&gt;
             </div>
             <h4>Output</h4>
             <div class="viewer">
                 <!-- <p>This is paragraph 1</p> -->
+                 <a href="https://projectnextech.org/" target="_blank">Project NexTech</a>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>Image</h3>
+            <div class="code">
+                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+                 &lt;img src="https://projectnextech.org/img/Logo.png" alt="Project NexTech Logo"&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <!-- <p>This is paragraph 1</p> -->
+                 <img src="https://projectnextech.org/img/Logo.png" alt="Project NexTech Logo" class="image">
             </div>
         </div>
         <br>
 
         <div class="code-viewer">
             <h3>Video</h3>
+            <small>There is no video file to link to.</small>
             <div class="code">
-                <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+                &lt;video width="50%" controls autoplay muted&gt;<br>
+                &emsp;&emsp;&lt;source src="filepath/to/the?video" type="video/mp4"&gt;<br>
+                &lt;/video&gt;
             </div>
             <h4>Output</h4>
             <div class="viewer">
-                <!-- <p>This is paragraph 1</p> -->
+                 <video width="50%" controls autoplay muted>
+                    <source src="filepath/to/the/video" type="video/mp4">
+                 </video>
+            </div>
+        </div>
+        <br>
+
+        <div class="code-viewer">
+            <h3>External Video</h3>
+            <small>There is nothing below because I could not find a video from Project NexTech to put.</small>
+            <div class="code">
+                &lt;iframe width="560" height="315" src="url/of/video" frameborder="0"&gt;&lt;/iframe&gt;
+            </div>
+            <h4>Output</h4>
+            <div class="viewer">
+                <iframe width="560" height="315" src="url/of/video" frameborder="0"></iframe>
             </div>
         </div>
         <br>
 
         <div class="code-viewer">
             <h3>Audio</h3>
+            <small>There is no audio file to link to.</small>
             <div class="code">
                 <!-- &lt;p&gt;This is paragraph 1&lt;/p&gt; -->
+                &lt;audio src="" controls autoplay muted&gt;<br>
+                &emsp;&emsp;&lt;source src="filepath/to/the/video" type="audio/mpeg"&gt;<br>
+                &lt;/audio&gt;
             </div>
             <h4>Output</h4>
             <div class="viewer">
                 <!-- <p>This is paragraph 1</p> -->
+                <audio src="" controls autoplay muted>
+                    <source src="filepath/to/the/video" type="audio/mpeg">
+                </audio>
             </div>
         </div>
         <br>
@@ -651,6 +691,10 @@
         padding-right: 30px;
     }
 
+    .code-viewer .viewer .image {
+        width: 30%;
+    }
+
     .viewer dl dd
     {
         margin-left: 55px;
@@ -682,10 +726,6 @@
             text-align: center;
             border-radius: 0px;
             margin: 0px;
-        }
-
-        .blog-container .code-viewer .code pre {
-
         }
     }
 
