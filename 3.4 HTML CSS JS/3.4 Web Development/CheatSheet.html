@@ -540,7 +540,7 @@
             </div>
             <h4>Output</h4>
             <div class="viewer">
-                 <video width="50%" controls autoplay muted>
+                 <video width="50%" controls autoplay muted class="video">
                     <source src="filepath/to/the/video" type="video/mp4">
                  </video>
             </div>
@@ -555,7 +555,7 @@
             </div>
             <h4>Output</h4>
             <div class="viewer">
-                <iframe width="560" height="315" src="url/of/video" frameborder="0"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iB5Cn-sOGmY?si=A4TTzvDr2ZD5wDRW" frameborder="0" class="external-video"></iframe>
             </div>
         </div>
         <br>
@@ -572,7 +572,7 @@
             <h4>Output</h4>
             <div class="viewer">
                 <!-- <p>This is paragraph 1</p> -->
-                <audio src="" controls autoplay muted>
+                <audio src="" controls autoplay muted class="ausio">
                     <source src="filepath/to/the/video" type="audio/mpeg">
                 </audio>
             </div>
@@ -681,22 +681,31 @@
     .viewer ol li,
     .viewer ul li,
     .viewer dl dt,
-    .viewer table tr
-    {
+    .viewer table tr {
         margin-left: 20px;
     }
 
-    .viewer table tr td
-    {
+    .viewer table tr td {
         padding-right: 30px;
     }
 
     .code-viewer .viewer .image {
         width: 30%;
     }
+    
+    .code-viewer .viewer .video {
+        width: 75%;
+    }
+    
+    .code-viewer .viewer .external-video {
+        width: 75%;
+    }
+    
+    .code-viewer .viewer .ausio {
+        width: 75%;
+    }
 
-    .viewer dl dd
-    {
+    .viewer dl dd {
         margin-left: 55px;
     }
 
@@ -726,6 +735,22 @@
             text-align: center;
             border-radius: 0px;
             margin: 0px;
+        }
+
+        .code-viewer .viewer .image {
+            width: 30%;
+        }
+        
+        .code-viewer .viewer .video {
+            width: 100%;
+        }
+        
+        .code-viewer .viewer .external-video {
+            width: 100%;
+        }
+        
+        .code-viewer .viewer .ausio {
+            width: 100%;
         }
     }
 
